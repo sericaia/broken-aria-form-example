@@ -1,0 +1,17 @@
+.formContainer {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  margin: 0.5em;
+}
+
+.submitBtn {
+  margin-top: 1em;
+}
+
+.error {
+  font-size: 0.8em;
+  color: red;
+}
