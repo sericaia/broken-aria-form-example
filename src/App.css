@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.code-image {
+  width: 60%;
+}
+
+.voice-over-image {
+  width: 50%;
+}
+
+.controllers {
+  margin: 2em 0;
+}
+
+.controller {
+  margin: 0.5em;
+}
+
 .nav-list {
   display: flex;
   flex-direction: row;

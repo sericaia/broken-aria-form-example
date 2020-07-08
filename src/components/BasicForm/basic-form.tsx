@@ -10,7 +10,7 @@ export const Form = () => {
   };
 
   return (
-    <form onSubmit={onSubmit} className="formContainer">
+    <form onSubmit={onSubmit} className="formContainer" noValidate={true}>
       <label htmlFor="email" className="formLabel">
         Enter your email:
       </label>
@@ -28,4 +28,4 @@ export const Form = () => {
   );
 };
 
-// TODO show noValidate={true}
+
